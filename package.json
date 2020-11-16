@@ -1,0 +1,27 @@
+{
+  "name": "Resolvendo_captcha_recaptcha",
+  "version": "1.0.0",
+  "description": "Exemplo prático de resolução de capcha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suportepedropachecodev/Resolvendo_captcha_recaptcha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suportepedropachecodev/Resolvendo_captcha_recaptcha/issues"
+  },
+  "homepage": "https://github.com/suportepedropachecodev/Resolvendo_captcha_recaptcha#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^5.4.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-recaptcha": "^3.2.0",
+    "puppeteer-extra-plugin-stealth": "^2.6.5"
+  }
+}
